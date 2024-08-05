@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        form {
+            max-width: 500px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="name">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="password">
+
+        <label>Language</label>
+        <input type="radio" id="react" name="language" value="React">
+        <label for="react">React</label>
+        <input type="radio" id="angular" name="language" value="Angular">
+        <label for="angular">Angular</label>
+        <input type="radio" id="vue" name="language" value="Vue">
+        <label for="vue">Vue</label>
+
+        <label>Course</label>
+        <input type="checkbox" id="mern" name="course" value="MERN">
+        <label for="mern">MERN</label>
+        <input type="checkbox" id="mean" name="course" value="MEAN">
+        <label for="mean">MEAN</label>
+        <input type="checkbox" id="mevn" name="course" value="MEVN">
+        <label for="mevn">MEVN</label>
+
+        <label for="field">Field :</label>
+        <select id="field" name="field">
+            <option value="Front End">Front End</option>
+            <option value="Back End">Back End</option>
+            <option value="Full Stack">Full Stack</option>
+        </select>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Phone Number">
+
+        <input type="submit" value="submit">
+    </form>
+    <h1>Tables</h1>
+    <a href="#">Click here</a>
+</body>
+</html>
